@@ -1,0 +1,166 @@
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
+
+a { transition: all 0.3s ease; }
+a:hover { text-decoration: none; }
+
+p { line-height: 1.6em; }
+
+img { max-width: 100%; }
+
+h1, h2, h3, h4, h5 { font-weight: 700; color: #3b52a0; }
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+.navbar { min-height: inherit; }
+
+.no-side-padding { padding-left: 0; padding-right: 0; }
+
+.inset-holder { padding: 0 40px; }
+
+.divider6 { height: 6px; background-color: #3b52a0; }
+
+.hidden-desktop { display: none; }
+
+/** HEADER AREA **/
+header { background: #fff; }
+header .logo-holder { padding: 30px 0; }
+header .meta-contact { padding-top: 48px; text-align: right; }
+header .meta-contact a { height: 30px; line-height: 30px; font-weight: bold; font-size: 14px; color: #3b52a0; display: inline-block; margin-left: 25px; padding-left: 35px; }
+header .meta-contact a.phone { background: url('../img/icon-phone.png') no-repeat; }
+header .meta-contact a.email { background: url('../img/icon-email.png') no-repeat; }
+header .meta-contact a.offerte { height: 40px; line-height: 40px; padding: 0 15px; background-color: #3b52a0; color: #fff; }
+
+/** NAV MENU **/
+ul.nav li { font-weight: bold; padding: 15px 10px; }
+ul.nav li > a { padding: 0; font-weight: bold; border-bottom: 2px solid transparent; }
+ul.nav li > a:hover { border-bottom-color: #fff; }
+/*submenu*/
+ul.nav li > ul.dropdown { width: 340px; top: 54px; list-style: none; visibility: hidden; padding: 0; margin: 0; opacity: 0; position: absolute; background: #fff; z-index: 1;  }
+ul.nav li:hover > ul.dropdown { visibility: visible; display: block; opacity: 1.0; }
+ul.nav li ul.dropdown li { padding: 0; }
+ul.nav li ul.dropdown li a { display: block; color: #3b52a0; border-bottom: 2px solid #000; font-weight: normal; font-size: 0.8em; padding: 10px; }
+ul.nav li ul.dropdown li a:hover,
+ul.nav li ul.dropdown li a:focus,
+ul.nav li ul.dropdown li a:active  { background: #3b52a0; color: #fff; border-color: #3b52a0; }
+ul.nav li ul.dropdown li:last-child a { border: none; }
+
+/** BIG HEADER WITH TEXT HOLDER **/
+.header-bg { text-align: center; min-height: 565px; background-repeat: no-repeat; background-size: cover; }
+.txt-holder { margin-top: 20%; font-size: 2.2em; font-weight: 700; color: #fff; padding: 30px 40px; display: inline-block; background: rgba(0,0,0,0.5); }
+
+/** TEXT HOLDER BELOW BIG IMAGE ON OTHER PAGES **/
+.txt-holder.indent { margin-top: -240px; display: block; margin-right: 14px; padding: 0; background: none; }
+.txt-holder.indent .no-border-block { height: 30px; border-right: 14px solid transparent; background: #fff; }
+.txt-holder.indent .border-block { min-height: 240px; border-style: solid; margin-right: -14px; border-color: #3b52a0; border-width: 0 14px 30px 0; background: #fff; }
+.txt-holder.indent .content { padding: 20px 30px 40px; }
+.txt-holder.indent .content .title { text-align: center; font-size: 0.4em; text-transform: uppercase; margin: 0 0 40px 0; padding: 0; color: #000; }
+.txt-holder.indent .content form { text-align: center; }
+.txt-holder.indent .content form input[type="text"],
+.txt-holder.indent .content form input[type="email"],
+.txt-holder.indent .content form select,
+.txt-holder.indent .content form textarea { color: #000; margin: 10px 0; resize: vertical; font-weight: normal; border-radius: 0; border: 0; background: #c9c9c9; }
+.txt-holder.indent .content form input[type="submit"] { padding: 10px 45px; margin: 0; border: none; background: #3b52a0; color: #fff; font-size: 0.4em; text-transform: uppercase;  }
+
+/** USP HOLDER **/
+section .usp-holder { margin: 50px 0; overflow: auto; }
+section .usp-holder .col-md-custom { width: 20%; float: left; }
+section .usp-holder .usp-txt { text-align: center; text-transform: uppercase; color: #3b52a0; font-weight: 700; margin-top: 15px; }
+section .usp-holder .usp-icon { height: 90px; background-repeat: no-repeat; background-position: center center; }
+section .usp-holder .usp-icon.hydraulics { background-image: url('../img/icon-hydraulics.png'); }
+section .usp-holder .usp-icon.electric { background-image: url('../img/icon-electric.png'); }
+section .usp-holder .usp-icon.electric-hydra { background-image: url('../img/icon-electric-hydraulic.png'); }
+section .usp-holder .usp-icon.sensors { background-image: url('../img/icon-sensors.png'); }
+section .usp-holder .usp-icon.airco { background-image: url('../img/icon-airco.png'); }
+
+/** GLOBAL CSS FOR TEXTAREA **/
+section .gen-txt-area { margin: 40px 0; overflow: auto; }
+
+/** PARTNER LOGO'S **/
+section .partner-logos { margin: 40px 0; overflow: auto; }
+section .partner-logos img { padding: 0 10px; }
+
+/** NEWSLETTER AREA **/
+section .newsletter-area { color: #fff;  padding: 30px 0; overflow: auto; background: #3b52a0; }
+section .newsletter-area label,
+section .newsletter-area h3 { color: #fff; padding: 0; margin: 0; text-transform: uppercase; }
+section .newsletter-area p { margin: 0; }
+section .newsletter-area input[type="email"] { color: #000; width: 100%; padding: 10px; }
+
+/** GENERAL CONTENT FOR FOLLOW UP PAGES **/
+.general-content { margin: 150px 0; overflow: auto; }
+.general-content h2 { font-size: 2.0em; padding: 0 0 50px; margin: 0; }
+
+
+/** RESPONSIVE GOOGLE MAPS DIV **/
+.google-maps { position: relative; padding-bottom: 75%; /*aspect ratio*/ height: 0; overflow: hidden; }
+.google-maps iframe { position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
+
+
+/** FOOTER AREA **/
+footer .footer-area { padding: 60px 0 130px; overflow: auto; background-size: cover; background-position: center; background-repeat: no-repeat; position: relative; }
+footer .footer-area .overlay { top: 0; background-color: rgba(0,0,0,0.6); position: absolute; height: 100%; width: 100%; }
+footer .footer-area h4 { text-transform: uppercase; color: #fff; margin: 20px 0; }
+footer .footer-area ul,
+footer .footer-area ul li { list-style: none; margin: 0; padding: 0; }
+footer .footer-area ul li a { color: #fff; text-decoration: none; transition: all 0.3s ease; }
+footer .footer-area ul li a:hover { padding-left: 5px; }
+footer .footer-area .contact-info { padding: 25px 40px; margin-right: 30px; background: rgba(255,255,255,0.5); }
+footer .footer-area .contact-info .contact-data { color: #fff; padding: 25px 0 0 55px; font-weight: bold; }
+
+
+/** MEDIA QUERIES FOR CUSTOMISATION OUTSIDE BOOTSTRAP **/
+
+@media (max-width: 1200px) {
+	.inset-holder { padding: 0 20px; }
+
+	section .header-bg { min-height: 350px; }
+	section .header-bg .txt-holder { margin: 80px 0 0; }
+
+	section .usp-holder { margin: 30px 0; }
+	section .usp-holder .col-sm-custom { width: 30%; margin: 0 1%; }
+	section .usp-holder .usp-txt { padding: 0 20px; margin-bottom: 20px; }
+
+	.txt-holder.indent { margin-top: -90px; }
+
+	footer .footer-area {  padding: 40px 0 70px; }
+}
+
+@media (max-width: 992px) {
+	.navbar-collapse.in { overflow: inherit; }
+	ul.nav li { padding: 0; }
+	ul.nav li > a { display: block; padding: 10px 15px; border-bottom: 1px solid rgba(255,255,255,0.4); }
+	ul.nav li > ul.dropdown,
+	ul.nav li:hover > ul.dropdown { top: auto; width: auto; background: none; border: none; visibility: visible; display: block; position: relative; opacity: 1.0; }
+	ul.nav li > ul.dropdown li a { display: block; color: #fff; border-bottom: none; font-weight: normal; font-size: 0.8em; padding: 15px 10px 5px 25px; }
+	ul.nav li > ul.dropdown li a:before { font-family: "FontAwesome",sans-serif; content: "\f101"; padding-right: 5px; }
+
+	header .logo-holder { padding: 20px 0 0; text-align: center; }
+	header .meta-contact { padding: 10px 0 20px; text-align: center; }
+
+	section .gen-txt-area,
+	section .partner-logos { margin: 20px 0; }
+
+	section .partner-logos img { padding: 0; margin: 10px 0; }
+
+	.general-content { margin: 50px 0; }
+}
+
+@media (max-width: 768px) {
+
+	.mobile-clear { clear: both; }
+
+	section .header-bg .txt-holder { font-size: 2.0em; }
+
+	.hidden-desktop { display: inline; }
+	header .meta-contact a.offerte { display: block; margin: 10px 0; }
+	section .usp-holder .col-xs-custom { width: 100%; margin: 0; }
+	section .usp-holder .usp-txt { margin: 5px 0 35px; }
+}
+
+@media (max-width: 480px) {
+	.navbar-default .navbar-toggle { margin-right: 15px; }
+	section .header-bg .txt-holder { margin: 10px 0; }
+	.inset-holder { padding: 0; }
+}
+
