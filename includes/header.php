@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="<?= $root_url; ?>assets/css/custom-breakpoints.css">
 	<link rel="stylesheet" href="<?= $root_url; ?>assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?= $root_url; ?>assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.19/css/chocolat.min.css">
 	<link rel="stylesheet" href="<?= $root_url; ?>assets/css/main.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 </head>
@@ -38,6 +39,15 @@
 						<a class="phone" href="tel:+310362022010">+31 (0)36 202 20 10</a>
 						<a class="email" href="mailto:info@auto-elect.nl">info@auto-elect.nl</a>
 						<a class="offerte" href="#">Offerte<span class="hidden-desktop"> aanvragen</span></a>
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								NL <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+								<li><a href="#">EN</a></li>
+								<li><a href="#">DE</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

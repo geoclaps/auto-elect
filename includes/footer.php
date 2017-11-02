@@ -29,13 +29,18 @@
 				<div class="newsletter-area">
 					<div class="inset-holder">
 						<form onsubmit="">
-							<div class="col-md-4">
+							<div class="col-md-3">
 								<h3><label for="newsletter">Nieuwsbrief</label></h3>
 								<p>Schrijf je in en blijf op de hoogte!</p>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-9">
 								<form onsubmit="">
-									<input type="email" name="" value="" id="newsletter" />
+									<div class="col-md-9 col-sm-8 col-xs-12 no-side-padding">
+										<input type="email" name="" value="" id="newsletter" />
+									</div>
+									<div class="col-md-3 col-sm-4 col-xs-12 no-side-padding">
+										<input type="submit" value="Inschrijven" />
+									</div>
 								</form>
 							</div>
 						</form>
@@ -101,6 +106,13 @@
 <![endif]-->
 <script src="<?= $root_url; ?>assets/js/jquery-1.12.4.min.js"></script>
 <script src="<?= $root_url; ?>assets/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.19/js/jquery.chocolat.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('.prod-gallery').Chocolat();
+	});
+</script>
 
 </body>
 </html>
