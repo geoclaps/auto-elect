@@ -205,6 +205,8 @@ footer .footer-area .contact-info .contact-data { color: #fff; padding: 25px 0 0
 
 	.mobile-clear { clear: both; overflow-wrap: break-word; }
 
+	header .meta-contact .dropdown { position: absolute;  top: -74px; right: 0; } /*added 11/2017*/
+
 	section .header-bg .txt-holder { font-size: 2.0em; }
 
 	.hidden-desktop { display: inline; }
@@ -212,12 +214,12 @@ footer .footer-area .contact-info .contact-data { color: #fff; padding: 25px 0 0
 	section .usp-holder .col-xs-custom { width: 100%; margin: 0; }
 	section .usp-holder .usp-txt { margin: 5px 0 35px; }
 
-	.autoboek ul.progress { padding: 0; }
-	.autoboek ul.progress li { float: none; border-bottom: 1px solid #fff; background: none; }
-	.autoboek ul.progress li a { display: block; padding: 15px 10px; }
+	.autoboek ul.progress { padding: 0; } /*added 11/2017*/
+	.autoboek ul.progress li { float: none; border-bottom: 1px solid #fff; background: none; } /*added 11/2017*/
+	.autoboek ul.progress li a { display: block; padding: 15px 10px; } /*added 11/2017*/
 
-	.autoboek .product-holder .options-table > div > span { min-width: 110px; }
-	.autoboek .prod-gallery .thumbs .chocolat-image img { width: 100%; }
+	.autoboek .product-holder .options-table > div > span { min-width: 110px; } /*added 11/2017*/
+	.autoboek .prod-gallery .thumbs .chocolat-image img { width: 100%; } /*added 11/2017*/
 
 	.newsletter-area input[type="email"], /*added 11/2017*/
 	.newsletter-area input[type="submit"] { margin-top: 5px; } /*added 11/2017*/
